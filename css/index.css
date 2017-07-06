@@ -1,0 +1,156 @@
+@charset "utf-8";
+/*统一样式表*/
+html{height: 100%; }
+body {margin:0 auto;padding:0;height: 100%; background: #5396ce;}
+body, h1, h2, h3, h4, h5, h6,form{margin: 0px; padding:0px}
+h1, h2, h3, h4, h5, h6 { font-weight: normal}
+ul { margin:0; padding:0; list-style:none }
+li {margin:0; padding:0;}
+a {color:#000}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: none;}
+img { border:0;}
+dl{margin:0; padding:0}
+dl dd{margin:0}
+.float_left{float:left}
+.float_right{float:right}
+.clear{clear:both; line-height:0; padding:0; margin:0}
+/*统一样式表END*/
+
+/*通用顶部*/
+.noticeBg ul.topLM{overflow: hidden; position: relative; width:calc(100% - 4%); width: -webkit-calc(100% - 4%); padding:3% 2%;}
+.noticeBg ul.topLM li{color: #fff; font-size: 1.2rem;}
+.noticeBg ul.topLM li a{color: #fff;}
+.noticeBg ul.topLM li:first-child{float: left;}
+.noticeBg ul.topLM li:last-child{width: fit-content; width: -webkit-fit-content; margin: 0 auto;}
+/*通用顶部END*/
+/*通用底部栏目*/
+ul.bottomLM{width: 100%; height: 2.6rem; overflow: hidden; background: #1e5f95; position: fixed; bottom: 0; left: 0;}
+ul.bottomLM li{width: calc(33.33% - 0.1rem); float: left; color: #fff; text-align: center; line-height: 2.6rem; border-right: 0.1rem solid #3273a9;}
+/*通用底部栏目END*/
+
+/*登陆页面*/
+.syBg{width: 100%; height: 100%; background: url(../images/20170307-yss-sybg.jpg) center top no-repeat; background-size: 100% auto; -webkit-background-size: 100% auto;}
+.syBg .topImg{display: block; width: 90%; height: auto; margin: 0 auto; padding: 22% 0 0;}
+.syBg .logIn{}
+.syBg .logIn input{display: block; border: 0.1rem solid #d8d8d8; outline: none; font-size: 1.2rem; padding: 0; margin: 1rem auto; width: 65%; height: 2rem; border-radius: 1rem; -webkit-border-radius: 1rem; padding-left: 12%;}
+.syBg .logIn .userName{background:#fff url(../images/20170307-yss-sy1.jpg) 4% center no-repeat; background-size: auto 80%;  -webkit-background-size: auto 80%;}
+.syBg .logIn .psWord{background:#fff url(../images/20170307-yss-sy2.jpg) 4% center no-repeat; background-size: auto 80%;  -webkit-background-size: auto 80%;}
+.syBg .logIn .Enter{background:linear-gradient(#345295, #345295); background:-webkit-linear-gradient(#345295, #345295); border: none!important; color: #fff; width: 78%; padding: 0; height: 2.2rem;}
+.syBg ul{overflow: hidden; width: 70%; margin: 0 auto;}
+.syBg ul li:first-child{float: left; color: #003d68;}
+.syBg ul li:first-child a{color: #003d68;}
+.syBg ul li:last-child{float: right; color: #d43d3d;}
+.syBg ul li:last-child a{color: #d43d3d;}
+/*登陆页面END*/
+
+/*公告*/
+.noticeBg{width: 100%; height: 100%; background: url(../images/20170307-yss-noticebg.jpg) center top no-repeat; background-size: 100% auto; -webkit-background-size: 100% auto;}
+.noticeBg ul.noticeBox{width: 92%; margin: 0 auto;}
+.noticeBg ul.noticeBox li{margin:0 auto 2rem; padding:1rem 4%; background: rgba(255,255,255,0.3);}
+.noticeBg ul.noticeBox li h1{ font-size: 1rem; text-indent: 7.5%; position: relative; line-height: 1.5; color: #345295;}
+.noticeBg ul.noticeBox li h1 img{display: block; position: absolute; width: 6%; height: auto; left: 0;}
+.noticeBg ul.noticeBox li h1 a{color: #345295;}
+/*公告END*/
+
+
+/*服务条款*/
+.noticeBg div.futkBox{width: 78%; margin: 0 auto; padding:1rem 6%; background: rgba(255,255,255,0.3); font-size: 1rem; position: relative; line-height: 1.5; color: #345295; line-height: 2;}
+.noticeBg div.futkBox a{color: #345295;}
+.noticeBg ul.tongyi{overflow: hidden;}
+.noticeBg ul.tongyi li{float: left; text-align: center; font-size: 1.2rem; line-height: 2; border-radius: 3rem; -webkit-border-radius: 3rem; margin-left: 7%; margin-top: 1.6rem;}
+.noticeBg ul.tongyi li:first-child{background: #e8400d; color: #fff; width: 50%;;}
+.noticeBg ul.tongyi li:last-child{background: #cbcbcb; width: 25%; color: #345295;}
+/*服务条款END*/
+
+/**文章页面**/
+.noticeBg div.futkBox2{width: 78%; margin: 0 auto; padding:1rem 6%; background: rgba(255,255,255,0.3); font-size: 1rem; position: relative; line-height: 1.5; color: #345295; line-height: 2;}
+.noticeBg div.futkBox2 a{color: #345295;}
+.noticeBg div.futkBox2 h1{font-size: 1.4rem; padding: 0; margin: 0; font-weight: bold; line-height: 1.6;}
+.noticeBg div.futkBox2 h2{font-size: 1rem; padding: 0 0 0.6rem; margin: 0; border-bottom: 0.1rem solid #333; line-height: 1.4;}
+/**文章页面END**/
+
+/*个人中心*/
+.noticeBg ul.grzx{width: 92%; margin: 0 auto;}
+.noticeBg ul.grzx li{margin:0 auto 0; padding:1rem 0; overflow: hidden; border-bottom: 0.1rem solid #fff; height: 3rem;}
+.noticeBg ul.grzx li h1{width: 15%; height: 3rem; color: #fff; border-right: 0.1rem solid #fff;    display: table-cell ; vertical-align:middle; text-align:left; font-size: 0;}
+.noticeBg ul.grzx li h1 img{width:60%;height:auto; display: inline-block;}
+.noticeBg ul.grzx li:first-child h1{border-right: none;}
+.noticeBg ul.grzx li:first-child h1 img{width: 100%; border-right: none; border-radius: 50%; -webkit-border-radius: 50%;}
+.noticeBg ul.grzx li h2{height: 3rem; display: table-cell; vertical-align: middle; width:90%; color: #fff; font-size: 1.2rem; padding-left: 1.5rem;}
+.noticeBg ul.grzx li h3{width: 10%; color: #fff; font-size: 2.4rem; line-height: 2.4rem; font-weight: normal; display: table-cell; vertical-align: middle;}
+/*个人中心END*/
+
+/*文集*/
+.noticeBg ul.wj{width: 92%; margin: 0 auto;}
+.noticeBg ul.wj li{margin:0 auto 0; padding:0; overflow: hidden; border-bottom: 0.1rem solid #fff; height: 3rem;}
+.noticeBg ul.wj li h1{font-size: 1rem; line-height: 3rem; float: left; width: 75%; color: #fff;}
+.noticeBg ul.wj li h1 a{color: #fff;}
+.noticeBg ul.wj li h2{float: right; font-size: 1rem; line-height: 3rem; width: 15%;}
+.noticeBg ul.wj li h2 span{color: #fff;}
+.noticeBg ul.wj li h2.checked,.noticeBg ul.wj li h2.checked a{color: #026c43;}
+.noticeBg ul.wj li h2.checking,.noticeBg ul.wj li h2.checking a{color: #ffde00;}
+.noticeBg ul.wj li h2.uncheck,.noticeBg ul.wj li h2.uncheck a{color: #ff0000;}
+.noticeBg ul.wj li div.img{float:right; height: 3rem; width: 5%; display: table;}
+.noticeBg ul.wj li div.img div{width: 100%; height: 100%; display: table-cell; vertical-align: middle;}
+.noticeBg ul.wj li div.img img{width:100%; height: auto; display: inline; vertical-align: middle;}
+
+
+
+
+
+.noticeBg ul.wjTop{width: 92%; margin: 0 auto; overflow: hidden; display: table; border-bottom: 0.1rem solid #fff;}
+.noticeBg ul.wjTop li{height: 7rem; display: table-cell; vertical-align: middle; overflow: hidden; color: #fff; line-height: 2;}
+.noticeBg ul.wjTop li:first-child{line-height: 0; width: 29%; padding-right: 3%;}
+.noticeBg ul.wjTop li:first-child img{border-radius: 50%; -webkit-border-radius: 50%; display: inline-block; width: 100%; height: auto;}
+.noticeBg ul.wjTop li:last-child{width: 7%;}
+.noticeBg ul.wjTop li:last-child img{width: 100%; height: auto; display: inline-block;}
+.noticeBg ul.wjTj{width: 92%; margin: 0 auto;}
+.noticeBg ul.wjTj li{color: #fff; line-height: 2;}
+.logIn{position: relative; display: block; width: 92%; margin: 0 auto;}
+.logIn input{display: block; outline: none; font-size: 1.2rem; padding: 0; margin: 1rem auto;  height: 2rem; border-radius: 1rem; -webkit-border-radius: 1rem;}
+.logIn .userName{background:#fff url(../images/20170320-yss-sereach.jpg) right 4% center no-repeat; background-size: auto 80%;  -webkit-background-size: auto 80%; padding:0 14% 0 4%; width: 82%; border: 0.1rem solid #d8d8d8;}
+.logIn .Enter{position:absolute; top:0; right: 0; margin: 0; border: none; width: 15%; padding: 0; height: 2.2rem; opacity: 0;}
+/*文集END*/
+
+/**发稿**/
+.fgTitText{width: 83%; margin: 0 auto; padding-left: 2%; font-size: 1.2rem; color:#fff; line-height: 2;}
+/*标题*/
+.fgTit{width: 85%; display: block; margin: 0 auto; height: 2.4rem; border: none; border-radius: 2rem; -webkit-border-radius: 2rem; outline: none; font-size: 1rem; color:#5396ce;}
+/*标题END*/
+/*内容*/
+.fgTxara{width: 81%; height: 10rem; padding: 0 2%; margin: 0 auto; display: block; border: none; border-radius: 1rem; -webkit-border-radius: 1rem; font-size: 1rem; color:#5396ce; line-height: 1.6; outline: none;}
+/*内容END*/
+/*上传视频*/
+.selectUpload {width: 85%; margin: 0 auto;  display: table;}
+.selectUpload .a-upload { position: relative;height: 2.6rem; overflow: hidden; border-radius: 2rem; -webkit-border-radius: 2rem; color: #888; background: #fafafa; overflow: hidden; display: table-cell; vertical-align: middle;} 
+.selectUpload .a-upload .a-uploadName{width: 83%; height: 2.6rem; line-height: 2.6rem; overflow: hidden; position: absolute; left: 2%; top: 0; color: #5396ce;}
+.selectUpload .a-upload img { display: inline-block; width: 2rem; height: auto; float: right; padding-right: 3%;}
+.selectUpload .a-upload input {position: absolute; width: 2rem; display:block; right: 0; top: 0; bottom: 0; margin: auto; opacity: 0; filter: alpha(opacity=0); cursor: pointer; padding-right: 3%;}
+
+/*上传视频END*/
+/*选择栏目*/
+.fgTest{appearance:none; height: 2.4rem; line-height: 2.4rem; -webkit-appearance:none; border: none; border-radius: 2rem; -webkit-border-radius: 2rem; width:85%; background: #fff url(../images/20170307-yss-dispatch1.jpg) right 3% center no-repeat; background-size:auto 50%; -webkit-background-size:auto 50%; margin: 0 auto; display: block; font-size: 1rem; padding: 0 2%; color: #5396ce; outline: none;}
+/*选择栏目END*/
+/*提交*/
+.fgSubmit{background: #e8400d; background: linear-gradient(top,#e8400d,#e8400d); background: -webkit-linear-gradient(top,#e8400d,#e8400d); border: none; height: 2.4rem; color: #fff; width: 85%; margin: 2rem auto 0; display: block; border-radius: 2rem; -webkit-border-radius: 2rem; font-size: 1.2rem;}
+/*提交END*/
+/**发稿END**/
+
+/**注册**/
+.zcTitText{width: 83%; margin: 0 auto; padding-right: 2%; font-size: 0.8rem; color:#fff; line-height: 2; text-align: right;}
+.zcTit{width: 82%; padding-left: 3%; display: block; margin: 1rem auto 0; height: 2.4rem; border: none; border-radius: 2rem; -webkit-border-radius: 2rem; outline: none; font-size: 1rem; color:#5396ce;}
+/*上传文件*/
+.fileUpload {width: 85%; margin: 1rem auto 0;  display: table;}
+.fileUpload .a-upload { position: relative;height: 2.6rem; overflow: hidden; border-radius: 2rem; -webkit-border-radius: 2rem; color: #888; background: #fafafa; overflow: hidden; display: table-cell; vertical-align: middle;} 
+.fileUpload .a-upload .a-uploadName{width: 83%; height: 2.6rem; line-height: 2.6rem; overflow: hidden; position: absolute; left: 2%; top: 0; color: #5396ce;}
+.fileUpload .a-upload img { display: inline-block; width: 2rem; height: auto; float: right; padding-right: 3%;}
+.fileUpload .a-upload input {position: absolute; width: 2rem; display:block; right: 0; top: 0; bottom: 0; margin: auto; opacity: 0; filter: alpha(opacity=0); cursor: pointer; padding-right: 3%;}
+.fileSubmit{background: #e8400d; background: linear-gradient(top,#e8400d,#e8400d); background: -webkit-linear-gradient(top,#e8400d,#e8400d); border: none; height: 2.4rem; color: #fff; width: 85%; margin: 1rem auto; display: block; border-radius: 2rem; -webkit-border-radius: 2rem; font-size: 1.2rem;}
+/*上传文件END*/
+/*选择栏目*/
+.zcTest{appearance:none; height: 2.4rem; line-height: 2.4rem; -webkit-appearance:none; border: none; border-radius: 2rem; -webkit-border-radius: 2rem; width:85%; background: #fff url(../images/20170307-yss-dispatch1.jpg) right 3% center no-repeat; background-size:auto 30%; -webkit-background-size:auto 30%; margin: 0 auto; display: block; font-size: 1rem; padding: 0 2%; color: #5396ce; outline: none;}
+/*选择栏目END*/
+/**注册END**/
